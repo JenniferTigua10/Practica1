@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentro Deportivo</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Encuentro Deportivo</h1>
+        <nav>
+            <ul>
+                <li><a href="apostador.html">Apostador</a></li>
+                <li><a href="encuentro.html">Encuentro Deportivo</a></li>
+                <li><a href="pronostico.html">Pronóstico</a></li>
+                <li><a href="index.html">Abandona/Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="grid-container">
+            <div class="grid-item">
+                <label for="encuentro-id">ID:</label>
+                <input type="text" id="encuentro-id" name="encuentro-id" required>
+            </div>
+            <div class="grid-item">
+                <label for="equipo1">Equipo 1:</label>
+                <input type="text" id="equipo1" name="equipo1" required>
+            </div>
+            <div class="grid-item">
+                <label for="equipo2">Equipo 2:</label>
+                <input type="text" id="equipo2" name="equipo2" required>
+            </div>
+            <div class="grid-item">
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="grid-item">
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronóstico</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Pronóstico Deportivo</h1>
+        <nav>
+            <ul>
+                <li><a href="apostador.html">Apostador</a></li>
+                <li><a href="encuentro.html">Encuentro Deportivo</a></li>
+                <li><a href="pronostico.html">Pronóstico</a></li>
+                <li><a href="index.html">Abandona/Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="grid-container">
+            <div class="grid-item">
+                <label for="pronostico-id">ID:</label>
+                <input type="text" id="pronostico-id" name="pronostico-id" required>
+            </div>
+            <div class="grid-item">
+                <label for="apostador-id">ID Apostador:</label>
+                <input type="text" id="apostador-id" name="apostador-id" required>
+            </div>
+            <div class="grid-item">
+                <label for="encuentro-id">ID Encuentro Deportivo:</label>
+                <input type="text" id="encuentro-id" name="encuentro-id" required>
+            </div>
+            <div class="grid-item">
+                <label for="resultado">Resultado Propuesto:</label>
+                <input type="text" id="resultado" name="resultado" required>
+            </div>
+            <div class="grid-item">
+                <label for="valor">Valor Apuesta:</label>
+                <input type="number" id="valor" name="valor" required>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

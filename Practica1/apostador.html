@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Apostador</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Información del Apostador</h1>
+        <nav>
+            <ul>
+                <li><a href="apostador.html">Apostador</a></li>
+                <li><a href="encuentro.html">Encuentro Deportivo</a></li>
+                <li><a href="pronostico.html">Pronóstico</a></li>
+                <li><a href="index.html">Abandona/Cerrar Sesion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="grid-container">
+            <div class="grid-item">
+                <label for="apostador-id">ID:</label>
+                <input type="text" id="apostador-id" name="apostador-id" required>
+            </div>
+            <div class="grid-item">
+                <label for="apostador-nombre">Nombre:</label>
+                <input type="text" id="apostador-nombre" name="apostador-nombre" required>
+            </div>
+            <div class="grid-item">
+                <label for="apostador-identificacion">Identificación:</label>
+                <input type="text" id="apostador-identificacion" name="apostador-identificacion" required pattern="\d+">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
