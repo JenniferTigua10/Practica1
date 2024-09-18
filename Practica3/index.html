@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronósticos Deportivos</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <h1>Pronósticos Deportivos</h1>
+
+    <!-- Formulario de filtrado -->
+    <form id="filtrarFormulario">
+        <input type="text" id="filtrarTexto" placeholder="Filtrar pronósticos...">
+        <button type="submit">Filtrar</button>
+    </form>
+
+    <!-- Tablas -->
+    <h2>Apostadores</h2>
+    <table id="tablaApostadores"></table>
+
+    <h2>Encuentros Deportivos</h2>
+    <table id="tablaEncuentros"></table>
+
+    <h2>Pronósticos</h2>
+    <table id="tablaPronosticos"></table>
+
+    <!-- Incluye el archivo de entrada principal de TypeScript -->
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
