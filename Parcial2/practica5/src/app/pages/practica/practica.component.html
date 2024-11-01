@@ -1,0 +1,38 @@
+<form [formGroup]="forma">
+    <div class="form-group">
+      <label for="identificacion">Identificacion</label>
+      <input type="text" class="form-control" id="identificacion" placeholder="Identificacion" formControlName="identificacion">
+    </div>
+    <div class="form-group">
+      <label for="nombre">Nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Nombre" formControlName="nombre">
+    </div>
+    <button type="button" (click)="guardar()">
+      <span class="glyphicon glyphicon-floppy-disk"></span> Guardar
+    </button>
+    <button type="button" (click)="consultar()" >
+      <span class="glyphicon glyphicon-remove"></span> Consultar
+    </button>
+  </form>
+  
+  <table>
+    <tr>
+      <th>Nombre</th>
+      <th>Identificacion</th>
+      <th>Acciones</th>
+    </tr>
+    @for (item of users; track $index){
+    <tr>
+      <td>{{item.nombre}}</td>
+      <td>{{item.identificacion}}</td>
+      <td>
+        <button type="button" (click)="editar(item)">
+          <span class="glyphicon glyphicon-pencil"></span> Editar
+        </button>
+        <button type="button" (click)="eliminar(item)">
+          <span class="glyphicon glyphicon-trash"></span> Eliminar
+        </button>
+      </td>
+    </tr>
+    }
+  </table>
