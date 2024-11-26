@@ -1,4 +1,3 @@
-
-![Captura de pantalla 2024-11-26 173638](https://github.com/user-attachments/assets/67998d59-90d5-49b0-b9d8-e0dafba1c6a7)
-![Captura de pantalla 2024-11-26 173520](https://github.com/user-attachments/assets/36e8abee-7531-4a9e-9650-c421b59b099d)
-![Captura de pantalla 2024-11-26 173459](https://github.com/user-attachments/assets/8a11f127-6cd2-4b7c-8337-4d2090625a5e)
+![Captura de pantalla 2024-11-26 173520](https://github.com/user-attachments/assets/9b433def-c5d3-4a2e-997e-fbe92bc8112d)
+![Captura de pantalla 2024-11-26 173459](https://github.com/user-attachments/assets/9aecac81-a219-4929-9def-35423797814e)
+![WhatsApp Image 2024-11-26 at 5 55 04 PM](https://github.com/user-attachments/assets/0f172bb4-0a47-44e5-81d9-503890d9c627)
