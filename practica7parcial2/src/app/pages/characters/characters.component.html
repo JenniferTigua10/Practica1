@@ -1,0 +1,14 @@
+@for (item of characters.items; track $index)
+{
+  <li>
+    <a [routerLink]="['/characters/', item.id]">
+      <h2>{{ item.name }}</h2>
+    </a>
+  </li>
+}
+@empty {
+  <li>
+    <h2>No characters found</h2>
+  </li>
+}
+

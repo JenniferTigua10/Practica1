@@ -1,0 +1,71 @@
+/* Fondo general */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ececec; /* Fondo gris suave */
+    color: #333; /* Texto oscuro */
+  }
+  
+  /* Título principal */
+  h1 {
+    color: #000; /* Título negro */
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px #ff8c00; /* Sombra naranja */
+  }
+  
+  /* Lista de personajes */
+  .character-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Tarjetas de personajes */
+  .character-card {
+    background: linear-gradient(145deg, #ff8000, #ffa500); /* Gradiente naranja */
+    color: #000;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05); /* Aumenta tamaño al pasar el cursor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .character-card a {
+    color: #ffffff; /* Texto blanco */
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .character-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .character-list {
+      grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+    }
+  }
+  /* styles.css */
+.page-home {
+    background-color: #ececec; /* Fondo para la página de inicio */
+  }
+  
+  .page-character {
+    background-color: #f7f7f7; /* Fondo para la página de personajes */
+  }
+  

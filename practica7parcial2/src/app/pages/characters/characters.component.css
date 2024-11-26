@@ -1,0 +1,9 @@
+/* characters.component.css */
+.container {
+    background-color: #fffbf0; /* Fondo amarillo claro */
+  }
+  
+  .character-card {
+    border: 2px solid #ff8000; /* Borde naranja */
+  }
+  
