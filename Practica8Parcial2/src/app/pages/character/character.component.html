@@ -1,0 +1,18 @@
+<h1>
+    Character ID: {{ characterId() }}
+  </h1>
+  <a  routerLink="/">Regresar</a>
+  
+  
+  @if (characterQuery.data() === undefined)
+  {
+    <div>
+      <p>Loading...</p>
+    </div>
+  }
+  @else
+  {
+    <div>
+      <h2>{{ characterQuery.data()?.description }}</h2>
+    </div>
+  }

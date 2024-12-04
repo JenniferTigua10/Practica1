@@ -1,0 +1,12 @@
+<p>Personajes de dragon ball</p>
+<div>
+  @if (characters.isLoading())
+  {
+    <div>Loading...</div>
+  }
+  @else
+  {
+    <app-character-detail [characters]="characters.data()?.items ?? []"></app-character-detail>
+
+  }
+</div>
